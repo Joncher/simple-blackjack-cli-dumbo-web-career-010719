@@ -32,10 +32,10 @@ end
 
 def hit?(number)
   prompt_user
-  get_user_input
-  if "s"
-    print number
-    elsif "h"
+  x = get_user_input
+  if x = "s"
+    return number
+    elsif x = "h"
        return number + deal_card
     else invalid_command
   end
