@@ -41,7 +41,7 @@ def hit?(number)
     return number
     elsif "h"
     binding.pry
-      number += deal_card
+       return deal_card + number
     else invalid_command
   end
 end
