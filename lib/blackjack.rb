@@ -1,3 +1,4 @@
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -38,6 +39,7 @@ def hit?(number)
   if "s"
     return number
     elsif "h"
+    binding.pry
       number += deal_card
     else invalid_command
   end
