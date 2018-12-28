@@ -33,7 +33,7 @@ end
 def hit?(number)
   input = ""
   prompt_user
-  get_user_input
+  get_user_input = input
   
 end
 
