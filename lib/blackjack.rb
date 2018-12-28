@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(input)
-  print "Your cards add up to #{input}"
+  puts "Your cards add up to #{input}"
   puts "Type 'h' to hit or 's' to stay"
 end
 
