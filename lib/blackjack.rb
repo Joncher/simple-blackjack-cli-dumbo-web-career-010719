@@ -7,8 +7,8 @@ def deal_card
 end
 
 def display_card_total(input)
+  print input
   puts "Type 'h' to hit or 's' to stay"
-  gets = input
 end
 
 def prompt_user
