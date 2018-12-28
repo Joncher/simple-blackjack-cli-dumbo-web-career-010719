@@ -6,7 +6,7 @@ def deal_card
   return rand(1..11)
 end
 
-def display_card_total(deal_card)
+def display_card_total(input)
   puts "Type 'h' to hit or 's' to stay"
   gets = input
 end
