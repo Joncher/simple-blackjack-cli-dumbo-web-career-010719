@@ -40,7 +40,6 @@ def hit?(number)
   if "s"
     return number
     elsif "h"
-    binding.pry
        return deal_card + number
     else invalid_command
   end
