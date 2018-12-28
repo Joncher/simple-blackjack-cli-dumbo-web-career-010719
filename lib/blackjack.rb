@@ -33,8 +33,14 @@ end
 def hit?(number)
   input = ""
   prompt_user
-  get_user_input = input
-  
+  get_user_input
+  if "s"
+    return number
+    elsif "h"
+      deal_card
+      display_card_total
+    else invalid_command
+    
 end
 
 def invalid_command
