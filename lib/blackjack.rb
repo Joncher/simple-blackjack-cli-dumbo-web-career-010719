@@ -39,7 +39,7 @@ def hit?(number)
     return number
     elsif "h"
        x = deal_card 
-       return number + x
+       number + x
     else invalid_command
   end
 end
