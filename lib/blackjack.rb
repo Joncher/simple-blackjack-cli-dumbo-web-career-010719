@@ -36,7 +36,7 @@ def hit?(number)
   if "s"
     return number
     elsif "h"
-       
+       return number
     else invalid_command
   end
 end
