@@ -36,7 +36,8 @@ def hit?(number)
   if x = "s"
     return number
     elsif x = "h"
-       return number + deal_card
+        y = deal_card + number
+        return y
     else invalid_command
   end
 end
