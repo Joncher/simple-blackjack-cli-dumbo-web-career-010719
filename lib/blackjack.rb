@@ -31,6 +31,7 @@ def initial_round
 end
 
 def hit?(number)
+  input = ""
   prompt_user = input
   if input == 'h'
     number + deal_card
